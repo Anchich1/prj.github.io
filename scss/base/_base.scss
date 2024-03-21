@@ -1,0 +1,30 @@
+body{
+    font-family: "Karla", sans-serif;
+    color: #1D1F2EB2;
+    font-size: 1.2vw;
+}
+a{
+    color: #1D1F2EB2;
+    transition: color 0.2s ease-in;
+
+    &:hover{
+        color:#A25F4B;
+        cursor: pointer;
+    }
+}
+.container{
+    margin: 0 auto;
+    padding: 0;
+    padding-left: 5vw;
+    width: 75vw;
+}
+h2{
+    font-size: 2vw;
+    color: #1D1F2E;
+    font-weight: lighter;
+    line-height: 3vw;
+}
+p{
+    font-weight: lighter;
+    line-height: 2vw;
+}

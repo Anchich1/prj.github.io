@@ -1,0 +1,12 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 23pt;
+    padding-bottom: 23pt;
+}
+.header_top-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

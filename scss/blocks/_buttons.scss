@@ -1,0 +1,38 @@
+@mixin color{
+  color:#A25F4B
+}
+.btn1 {
+    position: absolute;
+    color:#1D1F2E;
+    letter-spacing: 0.05vw;
+    font-size:0.9vw;
+    font-weight: bold;
+    user-select: none;
+    background: white;
+    padding: 0.6vw 2vw 0.6vw 2vw;
+    outline: none; 
+    margin-top:25vw;
+    margin-left: 40%;
+  } 
+.btn2{
+    @include color;
+    &:hover{
+      border-bottom: 1px solid #A25F4B;
+  }
+}
+.btn3{
+    @include color;
+    margin-left: 45%;
+    margin-top: 2vw;
+}
+.btn4{
+    color:white;
+    letter-spacing: 0.05vw;
+    font-size:0.9vw;
+    user-select: none; 
+    background: #1D1F2E;
+    padding: 0.9vw 2vw 0.9vw 2vw; 
+    outline: none; 
+    margin-top:25vw;
+    letter-spacing: 0.1vw;
+  } 
